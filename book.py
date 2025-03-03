@@ -7,10 +7,6 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.units import inch
 from dotenv import load_dotenv
 
-#.env added to gitignore
-# -----------------------------------------------------------------
-# 1. SETUP: Client initialization with your approach
-# -----------------------------------------------------------------
 load_dotenv(dotenv_path="C:/Users/user/PycharmProjects/BookWriter/secret.env")
 
 # Provide your OpenAI API key here or via an environment variable
