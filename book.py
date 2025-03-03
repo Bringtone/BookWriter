@@ -11,7 +11,8 @@ from dotenv import load_dotenv
 # -----------------------------------------------------------------
 # 1. SETUP: Client initialization with your approach
 # -----------------------------------------------------------------
-load_dotenv(dotenv_path="C:/Users/user/PycharmProjects/BookWriter/secrets.env")
+load_dotenv(dotenv_path="C:/Users/user/PycharmProjects/BookWriter/secret.env")
+
 # Provide your OpenAI API key here or via an environment variable
 API_KEY = os.environ.get("OPENAI_API_KEY")
 VALID_PASSWORD = os.environ.get("STREAMLIT_APP_PASSWORD")
