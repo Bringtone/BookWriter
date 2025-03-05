@@ -172,7 +172,7 @@ def save_as_pdf(chapters, filename="book_output.pdf"):
                 y_pos -= 14
 
             # extra space after paragraph
-            y_pos -= 10
+            y_pos -= 5
             if y_pos < inch:
                 c.showPage()
                 c.setFont("Times-Roman", 12)
